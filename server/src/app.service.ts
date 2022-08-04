@@ -2,7 +2,7 @@ import { Injectable } from '@nestjs/common';
 
 @Injectable()
 export class AppService {
-  getHello(): string {
-    return 'OK this is better';
+  getRedirectLink(slug): string {
+    return slug;
   }
 }
